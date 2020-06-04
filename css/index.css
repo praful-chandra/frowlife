@@ -1,0 +1,13 @@
+* {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box; }
+
+body {
+  font-size: 64%; }
+
+.navi {
+  padding: 2.9em 8.7em; }
+  .navi-logo {
+    font-size: 5em;
+    color: #F89135; }

@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!-- Custom Styles-->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- font aswome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+
+    <title>curator -Form</title>
+</head>
+
+<body>
+
+    <div class="curatorform">
+        <div class="curatorform-title">frow life</div>
+        <div class="curatorform-wrapper">
+            <div class="curatorform-form" id="form1">
+                <div class="curatorform-form-title">Let’s Get Started</div>
+                <form action="#" method="get">
+                    <input type="text" name="" placeholder="name" id="">
+                    <input type="email" name="" placeholder="email" id="">
+                    <input type="password" name="" placeholder="password" id="">
+                    <input type="password" name="" placeholder="confirm password" id="">
+
+                    <input type="tel" name="" placeholder="mobile" id="">
+
+                    <input type="button" onclick="form2()" id="curatorform-form-submitbtn" value="submit">
+
+
+                </form>
+            </div>
+
+            <div class="curatorform-form hidden" id="form2">
+                    <div class="curatorform-form-title">A Brief info</div>
+                    <form action="#" method="get">
+                            <textarea name="text" id="briefInfoText"  placeholder="what defines you"></textarea>
+    
+                        <input type="button" onclick="form3()" id="curatorform-form-submitbtn" value="submit">
+    
+    
+                    </form>
+                </div>
+
+                <div class="curatorform-form hidden" id="form3">
+                        <div class="curatorform-form-title">What Genre/s You want to Cater to?</div>
+                        <form action="#" method="get">
+                              <select name="" id="">
+                                  <option value="select1">select 1</option>
+                                  <option value="select1">select 2</option>
+                                  <option value="select1">select 3</option>
+
+                              </select>
+                              <a href="#">Add More</a>
+        
+                            <input type="button" onclick="form4()" id="curatorform-form-submitbtn" value="submit">
+        
+        
+                        </form>
+                    </div>
+
+                    <div class="curatorform-form hidden" id="form4">
+                            <div class="curatorform-form-title">What Styles do you want to have in your selection?</div>
+                            <form action="#" method="get">
+                                  <select name="" id="">
+                                      <option value="select1">select 1</option>
+                                      <option value="select1">select 2</option>
+                                      <option value="select1">select 3</option>
+    
+                                  </select>
+                                  <a href="#">Add More</a>
+            
+                                <input type="button" onclick="form5()" id="curatorform-form-submitbtn" value="submit">
+            
+            
+                            </form>
+                        </div>
+        </div>
+    </div>
+
+</body>
+    <script>
+        form2 = function(){
+            this.preventDefault;
+            document.getElementById("form1").classList.add("hidden");
+            document.getElementById("form2").classList.remove("hidden");
+            document.getElementById("form3").classList.add("hidden");
+            document.getElementById("form4").classList.add("hidden");
+
+
+
+        }
+
+        form3 = function(){
+            this.preventDefault;
+            document.getElementById("form1").classList.add("hidden");
+            document.getElementById("form2").classList.add("hidden");
+            document.getElementById("form3").classList.remove("hidden");
+            document.getElementById("form4").classList.add("hidden");
+
+
+        }
+
+        form4 = function(){
+            this.preventDefault;
+            document.getElementById("form1").classList.add("hidden");
+            document.getElementById("form2").classList.add("hidden");
+            document.getElementById("form3").classList.add("hidden");
+            document.getElementById("form4").classList.remove("hidden");
+
+
+        }
+    </script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

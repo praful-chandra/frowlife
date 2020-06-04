@@ -1,0 +1,704 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!-- Custom Styles-->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- font aswome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+
+    <title>User - Product Page</title>
+</head>
+
+<body>
+        <nav class="navbar navbar-expand-xl">
+                <a class="navbar-logo" href="#"> Frow Life</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon1">
+                        <i class="fas fa-bars"></i>
+                    </span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+        
+        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link navbar-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Genere
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link navbar-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                curators
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link navbar-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                styles
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+        
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="navbar-search " type="search" placeholder="Tap Search" aria-label="Search">
+                        <i class="navbar-search-btn fas fa-search"></i>
+                    </form>
+        
+                    <div class="navbar-icons landing-nav-icons ">
+                        <i class="fas fa-user"></i>
+                        <i class="fas fa-question-circle"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-shopping-bag"></i>
+                    </div>
+                </div>
+            </nav>
+
+    <div class="product-hero-wrapper">
+        <div class="row">
+            <div class="product-hero-img-main col-md-5">
+                <img onclick="zoomProd()" src="./images/image-of-pleased-brunette-woman-wearing-casual-D4EHXL2@2x.png" alt="">
+            </div>
+            <div class="product-hero-img-others col-md-2">
+                <div class="row"><img onclick="zoomProd()" src="./images/trend-style/trend-style-4.png" alt=""></div>
+                <div class="row"><img onclick="zoomProd()" src="./images/trend-style/trend-style-5.png" alt=""></div>
+                <div class="row"><img onclick="zoomProd()" src="./images/trend-style/trend-style-1-6.png" alt=""></div>
+                <div class="row"><img onclick="zoomProd()" src="./images/trend-style/trend-style-2-7.png" alt=""></div>
+            </div>
+            <div class="product-hero-desc col-md-5">
+                <div class="product-hero-desc-title">Design Description</div>
+                <div class="product-hero-desc-label">Name of the label</div>
+                <div class="product-hero-desc-price">₹ 2,500</div>
+                <div class="product-hero-desc-desc">A two line brief on the design, on how to pair or on
+                    what occasions to wear this and so on…</div>
+                <div class="product-hero-desc-modelSize">Model is wearing size s</div>
+                <select name="" id="" class="product-hero-desc-size">
+                     <option value="Sel" default>SELECT SIZE</option>
+                    <option value="S">Small</option>
+                    <option value="M">Medium</option>
+                    <option value="L">Large</option>
+                </select>
+                <br>
+                <div class="product-hero-desc-addbag">
+                    <i class="fas fa-shopping-bag"></i>
+                    Add to BAG
+                </div>
+                <div class="product-hero-desc-wishlist">
+                    <i class="fas fa-heart"></i>
+                    Wishlist
+                </div>
+                <div class="product-hero-desc-prodDetails">
+                    <h3>Product Details</h3>
+                    <ul>
+                        <li>  - A list of bullet points describing the product to be entered here</li>
+                        <li>- but this is more of a traditional way of doing things</li>
+                        <li>- so we will like to change how it works</li>
+                        <li>- so there should be a text box for this where the title and the
+                                following text can be styled accordingly/as per the need</li>
+                        <li>- And then more description</li>
+                        <li>- and then some more</li>
+                        <li>- and leaving room for if more required</li>
+                        <li>- so on and so forth</li>
+                    </ul>
+                 
+                </div>
+                <div class="product-hero-desc-curator">
+                    <div class="product-hero-desc-curator-img">
+                        <img src="./images/best-curator.png" alt="">
+                    </div>
+              <div class="product-hero-desc-curator-right">
+                    <div class="product-hero-desc-curator-name">
+                            Curated by <span>Shripriya Jain </span>
+
+                    </div>
+                    <div class="product-hero-desc-curator-descp">
+                            An avid instagrammer and you-tuber and <br>
+                            Fashion stylist.  Renowned for style selection <br>
+                            in vintage and street wear.
+                    </div>
+              </div>
+
+
+                </div>
+                <div class="product-hero-desc-curator-2">
+                        Also part of curated looks by <span>Abhilasha Singh</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------------------------------------------ Desktop version -------------------------------------- -->
+    <div class="product-desktop">
+    <div class="product-content-wrapper">
+        <div class="product-content-infoBar">
+            <span class="product-content-infoBar-text">
+            Complete the look with these designs
+
+            </span>
+        </div>
+
+        
+    </div>
+
+    <div class="style-hero">
+      
+            <div class="style-hero">
+              <div class="style-hero-imgContainer">
+                <img src="./images/image-of-pleased-brunette-woman-wearing-casual-D4EHXL2@2x.png" alt="">
+              </div>
+              <div class="style-hero-arrow">
+                <img src="./images/trend-style/arrow-right.png" alt="">
+              </div>
+              <div class="style-hero-desc">
+                <div class="style-hero-desc-left">
+                  <p>
+                      A two line brief on
+                      The design, on how
+                      To pair or on what 
+                      occasions to  wear this
+                      And so on…
+                  </p>
+                </div>
+                <div class="style-hero-desc-right">
+                  <p class="style-hero-desc-right-name">
+                      Design Description
+                  </p>
+                  <p class="style-hero-desc-right-label">
+                      Name of the label
+                  </p>
+                  <p class="style-hero-desc-right-price">
+                      ₹ 2,500
+                  </p>
+                  <p class="style-hero-desc-right-bag">
+                      <i class="fas fa-shopping-bag"></i>
+                      Add to bag
+                  </p>
+                  <p class="style-hero-desc-right-heart">
+                      <i class="fas fa-heart"></i>
+                      210
+                  </p>
+        
+                </div>
+              </div>
+            </div>
+            <div class="style-hero-2">
+            <div class="style-hero-desc style-hero-2-desc">
+                <div class="style-hero-desc-left">
+                  <p>
+                      A two line brief on
+                      The design, on how
+                      To pair or on what 
+                      occasions to  wear this
+                      And so on…
+                  </p>
+                </div>
+                <div class="style-hero-desc-right">
+                  <p class="style-hero-desc-right-name">
+                      Design Description
+                  </p>
+                  <p class="style-hero-desc-right-label">
+                      Name of the label
+                  </p>
+                  <p class="style-hero-desc-right-price">
+                      ₹ 2,500
+                  </p>
+                  <p class="style-hero-desc-right-bag">
+                      <i class="fas fa-shopping-bag"></i>
+                      Add to bag
+                  </p>
+                  <p class="style-hero-desc-right-heart">
+                      <i class="fas fa-heart"></i>
+                      210
+                  </p>
+        
+                </div>
+              </div>
+        
+              <div class="style-hero-2-arrow">
+                  <img src="./images/trend-style/arrow-left.png" alt="">
+                </div>
+                <div class="style-hero-imgContainer style-hero-2-image">
+                    <img src="./images/image-of-pleased-brunette-woman-wearing-casual-D4EHXL2@2x.png" alt="">
+                  </div>
+            </div>
+        
+            <div class="blankHeight"></div>
+            <div class="style-hero">
+              <div class="style-hero-imgContainer">
+                <img class="pullUp" src="./images/image-of-pleased-brunette-woman-wearing-casual-D4EHXL2@2x.png" alt="">
+              </div>
+              <div class="style-hero-arrow">
+                <img src="./images/trend-style/arrow-right.png" alt="">
+              </div>
+              <div class="style-hero-desc">
+                <div class="style-hero-desc-left">
+                  <p>
+                      A two line brief on
+                      The design, on how
+                      To pair or on what 
+                      occasions to  wear this
+                      And so on…
+                  </p>
+                </div>
+                <div class="style-hero-desc-right">
+                  <p class="style-hero-desc-right-name">
+                      Design Description
+                  </p>
+                  <p class="style-hero-desc-right-label">
+                      Name of the label
+                  </p>
+                  <p class="style-hero-desc-right-price">
+                      ₹ 2,500
+                  </p>
+                  <p class="style-hero-desc-right-bag">
+                      <i class="fas fa-shopping-bag"></i>
+                      Add to bag
+                  </p>
+                  <p class="style-hero-desc-right-heart">
+                      <i class="fas fa-heart"></i>
+                      210
+                  </p>
+        
+                </div>
+              </div>
+            </div>
+        
+            
+          </div>
+        </div>
+
+            <!-- ------------------------------------------------------------ Desktop version -------------------------------------- -->
+
+
+    <!-- ------------------------------------------------------------ Mobile version -------------------------------------- -->
+
+
+        <div class="mobile-product">
+                <div class="mobile-style-hero-text">
+                        Street wear for the
+                        One on the go
+                </div>
+
+                <div class="mobile-style-hero-container">
+                        <div class="style-hero-imgContainer">
+                                <img src="./images/image-of-pleased-brunette-woman-wearing-casual-D4EHXL2@2x.png" alt="">
+                              </div>
+            
+                              <div class="style-hero-desc">
+                                    <div class="style-hero-desc-left">
+                                      <p>
+                                          A two line brief on
+                                          The design, on how
+                                          To pair or on what 
+                                          occasions to  wear this
+                                          And so on…
+                                      </p>
+                                    </div>
+                                    <div class="style-hero-desc-right">
+                                      <p class="style-hero-desc-right-name">
+                                          Design Description
+                                      </p>
+                                      <p class="style-hero-desc-right-label">
+                                          Name of the label
+                                      </p>
+                                      <p class="style-hero-desc-right-price">
+                                          ₹ 2,500
+                                      </p>
+                                      <p class="style-hero-desc-right-bag">
+                                          <i class="fas fa-shopping-bag"></i>
+                                          Add to bag
+                                      </p>
+                                      <p class="style-hero-desc-right-heart">
+                                          <i class="fas fa-heart"></i>
+                                          210
+                                      </p>
+                            
+                                    </div>
+                                  </div>
+            
+                              
+                </div>
+
+                <div class="mobile-style-hero-container">
+                        <div class="style-hero-imgContainer">
+                                <img src="./images/image-of-pleased-brunette-woman-wearing-casual-D4EHXL2@2x.png" alt="">
+                              </div>
+            
+                              <div class="style-hero-desc">
+                                    <div class="style-hero-desc-left">
+                                      <p>
+                                          A two line brief on
+                                          The design, on how
+                                          To pair or on what 
+                                          occasions to  wear this
+                                          And so on…
+                                      </p>
+                                    </div>
+                                    <div class="style-hero-desc-right">
+                                      <p class="style-hero-desc-right-name">
+                                          Design Description
+                                      </p>
+                                      <p class="style-hero-desc-right-label">
+                                          Name of the label
+                                      </p>
+                                      <p class="style-hero-desc-right-price">
+                                          ₹ 2,500
+                                      </p>
+                                      <p class="style-hero-desc-right-bag">
+                                          <i class="fas fa-shopping-bag"></i>
+                                          Add to bag
+                                      </p>
+                                      <p class="style-hero-desc-right-heart">
+                                          <i class="fas fa-heart"></i>
+                                          210
+                                      </p>
+                            
+                                    </div>
+                                  </div>
+            
+                              
+                </div>
+
+                <div class="mobile-style-hero-container">
+                        <div class="style-hero-imgContainer">
+                                <img src="./images/image-of-pleased-brunette-woman-wearing-casual-D4EHXL2@2x.png" alt="">
+                              </div>
+            
+                              <div class="style-hero-desc">
+                                    <div class="style-hero-desc-left">
+                                      <p>
+                                          A two line brief on
+                                          The design, on how
+                                          To pair or on what 
+                                          occasions to  wear this
+                                          And so on…
+                                      </p>
+                                    </div>
+                                    <div class="style-hero-desc-right">
+                                      <p class="style-hero-desc-right-name">
+                                          Design Description
+                                      </p>
+                                      <p class="style-hero-desc-right-label">
+                                          Name of the label
+                                      </p>
+                                      <p class="style-hero-desc-right-price">
+                                          ₹ 2,500
+                                      </p>
+                                      <p class="style-hero-desc-right-bag">
+                                          <i class="fas fa-shopping-bag"></i>
+                                          Add to bag
+                                      </p>
+                                      <p class="style-hero-desc-right-heart">
+                                          <i class="fas fa-heart"></i>
+                                          210
+                                      </p>
+                            
+                                    </div>
+                                  </div>
+            
+                              
+                </div>
+
+
+        </div>
+
+
+    <!-- ------------------------------------------------------------ Mobile version -------------------------------------- -->
+
+          <div class="row product-cards">
+              <div class="col-md-3 product-cards-card">
+                  <h3 class="product-cards-card-title">
+                    Delivery
+                  </h3>
+
+                  <p class="product-cards-card-desc">
+                    Free Delivery on all prepaid orders. Check 
+                    delivery options for your destination for 
+                    Cash on Delivery orders. 
+                  </p>
+
+                  <a href="#" class="product-cards-card-link">
+                    View
+                  </a>
+              </div>
+              <div class="col-md-3 product-cards-card">
+                <h3 class="product-cards-card-title">
+                    Returns
+                  </h3>
+
+                  <p class="product-cards-card-desc">
+                    Every order comes with Try and Buy, so you
+                    try when your order arrives you try the product 
+                    and  return whatever you don’t like. 
+                  </p>
+
+                  <a href="#" class="product-cards-card-link">
+                    How it works?
+                  </a>
+              </div>
+              <div class="col-md-3 product-cards-card">
+                <h3 class="product-cards-card-title">
+                    Consult A Stylist
+                  </h3>
+
+                  <p class="product-cards-card-desc">
+                    You can now book an appointment with our
+                    in-housee stylist and let them guide you
+                    On what will look best on you. 
+                  </p>
+
+                  <a href="#" class="product-cards-card-link">
+                    Book an Appointment
+                  </a>
+              </div>
+          </div>
+
+          <div class="footer product-footer">
+    <div class="footer-wrapper">
+        <div class="footer-wrapper-content">
+            <div class="footer-wrapper-content-about">
+                <ul>
+                    <li class="footer-wrapper-content-head">About US</li>
+
+                </ul>
+                <ul>
+                    <li class="footer-wrapper-content-head"> ACCOUNT</li>
+                    <li>Manage Accounts</li>
+                    <li>WishList</li>
+                    <li>Track Order</li>
+                    <li>Manage Accounts</li>
+                </ul>
+            </div>
+            <div class="footer-wrapper-content-support">
+                <ul>
+                    <li class="footer-wrapper-content-head">Support</li>
+                    <li>FAQ</li>
+                    <li>Bulk Orders</li>
+                    <li>Shipping and Returns</li>
+                    <li>International Shipping</li>
+                    <li>Cash on Delivery</li>
+                    <li>Size Chart</li>
+                </ul>
+            </div>
+            <div class="footer-wrapper-content-connect">
+                <ul>
+                    <li class="footer-wrapper-content-head">Connect</li>
+                    <li>Need help? Call +91 9644974497</li>
+                    <li>[Available between 9 am to 7 pm IST Monday to Friday]</li>
+                    <li>Or email us at support@frowlife.com</li>
+                    <li>Work with us - careers@frowlife.com</li>
+                    <li class="footer-wrapper-content-social">
+                         <i class="fab fa-instagram"></i> 
+                        <i class="fab fa-facebook-square"></i> 
+                        <i class="fab fa-twitter-square"></i>
+                        <i class="fab fa-pinterest-square"></i>
+
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-wrapper-content-signup">
+                <ul>
+                    <li class="footer-wrapper-content-head">
+                        SIGN UP FOR STYLE TIPS AND ONE FREE CONSULTATION
+                        WITH OUR IN-HOUSE STYLIST</li>
+                    <li class="footer-wrapper-content-txtip">
+                        <input type="text" placeholder="Enter Email Address"> <i class="fa fa-chevron-circle-right"></i>
+                    </li>
+
+                    <br>
+
+                    <li class="footer-wrapper-content-grid">
+                        <ul>
+                            <li><img src="./icons/icons8-try-and-buy-100@2x.png" alt=""></li>
+                            <li style="transform: translateX(-10%)">Try and Buy</li>
+                        </ul>
+                        <ul>
+                            <li><img src="./icons/icons8-protect-100@2x.png" alt=""></li>
+                            <li  style="transform: translateX(-20%)">Secure Checkout</li>
+                        </ul>
+                        <ul>
+                            <li><img src="./icons/icons8-in-transit-100@2x.png" alt=""></li>
+                            <li  style="transform: translateX(-10%)">Free Shipping</li>
+                        </ul>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-wrapper-extra-links">
+            <p>Privacy Policy &nbsp; &nbsp;  | &nbsp; &nbsp; Terms and Conditions</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="product-zoom hidden" id="zoomP">
+    <i class="fa fa-times" onclick="zoomProd()"></i>
+    <div class="product-zoom-content">
+            <div class="product-zoom-content-wrapper">
+                <div class="product-zoom-content-left row">
+                        <div class="product-hero-img-others col-md-5">
+                                <div class="row"><img  src="./images/trend-style/trend-style-4.png" alt=""></div>
+                                <div class="row"><img  src="./images/trend-style/trend-style-5.png" alt=""></div>
+                                <div class="row"><img  src="./images/trend-style/trend-style-1-6.png" alt=""></div>
+                                <div class="row"><img  src="./images/trend-style/trend-style-2-7.png" alt=""></div>
+                            </div>
+                            <div class="col-md-2"></div>
+                            <div class="product-hero-img-others col-md-5">
+                                    <div class="row"><img  src="./images/trend-style/trend-style-4.png" alt=""></div>
+                                    <div class="row"><img  src="./images/trend-style/trend-style-5.png" alt=""></div>
+                                    <div class="row"><img  src="./images/trend-style/trend-style-1-6.png" alt=""></div>
+                                    <div class="row"><img  src="./images/trend-style/trend-style-2-7.png" alt=""></div>
+                                </div>
+                </div>
+                <div class="product-zoom-content-right">
+                    <img src="./images/trend-style/trend-style-4.png" alt="">
+                </div>
+            </div>
+    </div>
+</div>
+
+    <!-- ------------------------------------------------------------ Mobile version -------------------------------------- -->
+
+<div class="mobile-footer">
+        <div class="mobile-footer-wrapper">
+            <div class="mobile-footer-wrapper-content">
+                <div class="footer-wrapper-content-about">
+                    <ul>
+                        <li class="footer-wrapper-content-head">About US</li>
+
+                    </ul>
+                    <ul>
+                        <li class="footer-wrapper-content-head"> ACCOUNT</li>
+                        <li>Manage Accounts</li>
+                        <li>WishList</li>
+                        <li>Track Order</li>
+                        <li>Manage Accounts</li>
+                    </ul>
+                </div>
+                <br><br>
+                <div class="footer-wrapper-content-support">
+                    <ul>
+                        <li class="footer-wrapper-content-head">Support</li>
+                        <li>FAQ</li>
+                        <li>Bulk Orders</li>
+                        <li>Shipping and Returns</li>
+                        <li>International Shipping</li>
+                        <li>Cash on Delivery</li>
+                        <li>Size Chart</li>
+                    </ul>
+                </div>
+                <br><br>
+                <div class="footer-wrapper-content-connect">
+                    <ul>
+                        <li class="footer-wrapper-content-head">Connect</li>
+                        <li>Need help? Call +91 9644974497</li>
+                        <li>[Available between 9 am to 7 pm IST Monday to Friday]</li>
+                        <li>Or email us at support@frowlife.com</li>
+                        <li>Work with us - careers@frowlife.com</li>
+                        <li class="footer-wrapper-content-social">
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-facebook-square"></i>
+                            <i class="fab fa-twitter-square"></i>
+                            <i class="fab fa-pinterest-square"></i>
+
+                        </li>
+                    </ul>
+                </div>
+                <br><br>
+                <div class="footer-wrapper-content-signup">
+                    <ul>
+                        <li class="footer-wrapper-content-head">
+                            SIGN UP FOR STYLE TIPS AND ONE FREE CONSULTATION
+                            WITH OUR IN-HOUSE STYLIST</li>
+                        <li class="footer-wrapper-content-txtip">
+                            <input type="text" placeholder="Enter Email Address"> <i class="fa fa-chevron-circle-right"></i>
+                        </li>
+
+                        <br>
+
+                        <li class="footer-wrapper-content-grid">
+                            <ul>
+                                <li><img src="./icons/icons8-try-and-buy-100@2x.png" alt=""></li>
+                                <li style="transform: translateX(-10%)">Try and Buy</li>
+                            </ul>
+                            <ul>
+                                <li><img src="./icons/icons8-protect-100@2x.png" alt=""></li>
+                                <li style="transform: translateX(-20%)">Secure Checkout</li>
+                            </ul>
+                            <ul>
+                                <li><img src="./icons/icons8-in-transit-100@2x.png" alt=""></li>
+                                <li style="transform: translateX(-10%)">Free Shipping</li>
+                            </ul>
+
+                        </li>
+                    </ul>
+                </div>
+                <br><br>
+            </div>
+
+            <div class="mobile-footer-wrapper-extra-links">
+                <p>Privacy Policy &nbsp; &nbsp; | &nbsp; &nbsp; Terms and Conditions</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+    <!-- ------------------------------------------------------------ Mobile version -------------------------------------- -->
+
+    <!-- Optional JavaScript -->
+    <script>
+   let zoomProd = function(){
+        if(document.getElementById("zoomP").classList.contains("hidden"))
+            document.getElementById("zoomP").classList.remove("hidden");
+        else
+              document.getElementById("zoomP").classList.add("hidden");
+   }
+    </script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
